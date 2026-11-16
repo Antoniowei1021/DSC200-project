@@ -1,0 +1,96 @@
+{
+  "snapshot_id": "ucsd_rentals_2026-11-16_102139_PT",
+  "state": "incomplete",
+  "source": "https://api.rentcast.io/v1/listings/rental/long-term",
+  "started_at_utc": "2026-11-16T18:21:39.068444+00:00",
+  "started_at_pacific": "2026-11-16T10:21:39.068444-08:00",
+  "timezone": "America/Los_Angeles",
+  "query": {
+    "latitude": 32.8801,
+    "longitude": -117.234,
+    "radius": 10,
+    "status": "Active",
+    "limit": 500,
+    "includeTotalCount": "true"
+  },
+  "requests": [
+    {
+      "offset": 0,
+      "url": "https://api.rentcast.io/v1/listings/rental/long-term?latitude=32.8801&longitude=-117.234&radius=10&status=Active&limit=500&includeTotalCount=true&offset=0",
+      "requested_at_utc": "2026-11-16T18:21:39.068893+00:00",
+      "http_status": 200,
+      "total_count": 2690,
+      "received_at_utc": "2026-11-16T18:21:56.211586+00:00",
+      "returned_rows": 500,
+      "file": "pages/offset_00000.json",
+      "sha256": "ed5151f2c8ebb3885af08f1614a03721b63dae136abc20e86a21faf8bbae0b88"
+    },
+    {
+      "offset": 500,
+      "url": "https://api.rentcast.io/v1/listings/rental/long-term?latitude=32.8801&longitude=-117.234&radius=10&status=Active&limit=500&includeTotalCount=true&offset=500",
+      "requested_at_utc": "2026-11-16T18:21:56.214176+00:00",
+      "http_status": 200,
+      "total_count": 2690,
+      "received_at_utc": "2026-11-16T18:22:04.406537+00:00",
+      "returned_rows": 500,
+      "file": "pages/offset_00500.json",
+      "sha256": "80a252752f7012736afddb0aa76c8564d30d81a3e60ab80bcd00575bb2cd37f8"
+    },
+    {
+      "offset": 1000,
+      "url": "https://api.rentcast.io/v1/listings/rental/long-term?latitude=32.8801&longitude=-117.234&radius=10&status=Active&limit=500&includeTotalCount=true&offset=1000",
+      "requested_at_utc": "2026-11-16T18:22:04.407989+00:00",
+      "http_status": 200,
+      "total_count": 2690,
+      "received_at_utc": "2026-11-16T18:22:10.096344+00:00",
+      "returned_rows": 500,
+      "file": "pages/offset_01000.json",
+      "sha256": "97f4312f2ccb1edf174d34c7de7ab185f7b4f9991303662fd95061c473e9dd55"
+    },
+    {
+      "offset": 1500,
+      "url": "https://api.rentcast.io/v1/listings/rental/long-term?latitude=32.8801&longitude=-117.234&radius=10&status=Active&limit=500&includeTotalCount=true&offset=1500",
+      "requested_at_utc": "2026-11-16T18:22:10.097962+00:00",
+      "http_status": 200,
+      "total_count": 2690,
+      "received_at_utc": "2026-11-16T18:22:14.190871+00:00",
+      "returned_rows": 500,
+      "file": "pages/offset_01500.json",
+      "sha256": "a1497fb2bbdf0323b83bcc79eb5f72a98b70739c9220c1df209c54bebf8872f7"
+    },
+    {
+      "offset": 2000,
+      "url": "https://api.rentcast.io/v1/listings/rental/long-term?latitude=32.8801&longitude=-117.234&radius=10&status=Active&limit=500&includeTotalCount=true&offset=2000",
+      "requested_at_utc": "2026-11-16T18:22:14.192381+00:00",
+      "http_status": 200,
+      "total_count": 2690,
+      "received_at_utc": "2026-11-16T18:22:18.058737+00:00",
+      "returned_rows": 500,
+      "file": "pages/offset_02000.json",
+      "sha256": "0f6baeaf5880277361a784f3a02c3258b02a9bb72e2c343359e3f359e685d3ca"
+    },
+    {
+      "offset": 2500,
+      "url": "https://api.rentcast.io/v1/listings/rental/long-term?latitude=32.8801&longitude=-117.234&radius=10&status=Active&limit=500&includeTotalCount=true&offset=2500",
+      "requested_at_utc": "2026-11-16T18:22:18.060773+00:00",
+      "http_status": 200,
+      "total_count": 2690,
+      "received_at_utc": "2026-11-16T18:22:21.834093+00:00",
+      "returned_rows": 190,
+      "file": "pages/offset_02500.json",
+      "sha256": "8165164a211d7f6beae4fb53f19a50d4f17c3153e989ff393db1ff60ff17bf35"
+    }
+  ],
+  "max_requests": 20,
+  "snapshot_semantics": "Sequential API capture over the recorded time interval; not an atomic provider snapshot.",
+  "finished_at_utc": "2026-11-16T18:22:21.836440+00:00",
+  "finished_at_pacific": "2026-11-16T10:22:21.836440-08:00",
+  "downloaded_rows": 2690,
+  "unique_ids": 2689,
+  "reported_totals": [
+    2690
+  ],
+  "completeness_verified": false,
+  "error": "Pagination completeness check failed; raw pages preserved, snapshot not frozen.",
+  "stopped_at_utc": "2026-11-16T18:22:21.836627+00:00"
+}

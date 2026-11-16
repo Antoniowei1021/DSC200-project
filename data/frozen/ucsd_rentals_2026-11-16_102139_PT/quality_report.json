@@ -1,0 +1,52 @@
+{
+  "frozen_rows": 2690,
+  "provider_matching_total": 2690,
+  "unique_ids": 2690,
+  "unique_addresses": 2690,
+  "status_counts": {
+    "Active": 2690
+  },
+  "property_type_counts": {
+    "Condo": 336,
+    "Single Family": 350,
+    "Apartment": 1906,
+    "Townhouse": 92,
+    "Multi-Family": 6
+  },
+  "bedroom_counts": {
+    "1": 950,
+    "2": 1105,
+    "0": 144,
+    "3": 353,
+    "4": 112,
+    "5": 23,
+    "6": 2,
+    "7": 1
+  },
+  "missing_fields": {
+    "price": 0,
+    "bedrooms": 0,
+    "bathrooms": 0,
+    "squareFootage": 85,
+    "latitude": 0,
+    "longitude": 0,
+    "lastSeenDate": 0
+  },
+  "within_miles_counts": {
+    "1": 19,
+    "2": 328,
+    "3": 445,
+    "5": 736,
+    "10": 2690
+  },
+  "outside_10_05_miles": 0,
+  "nonpositive_prices": 0,
+  "nonpositive_areas": 0,
+  "last_seen_range": [
+    "2026-11-14T02:47:01.414Z",
+    "2026-11-16T03:54:37.898Z"
+  ],
+  "sqlite_integrity_check": "ok",
+  "cross_page_duplicate_conflicts": 0,
+  "policy": "Retain all unique provider records; no outlier removal or missing-value imputation."
+}

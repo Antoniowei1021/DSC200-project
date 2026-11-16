@@ -1,0 +1,17 @@
+Third-party dataset notice
+
+Source: RentCast rental listings API
+API terms: https://www.rentcast.io/terms-api
+Terms reviewed: November 16, 2026
+Snapshot: ucsd_rentals_2026-11-16_102139_PT (2,690 records)
+
+RentCast's API License Section 1 permits specified uses including research,
+storage, disclosure, display, and distribution, subject to the rest of the
+agreement. Sections 3.1 and 3.3 retain provider and third-party rights and
+applicable third-party restrictions. This repository does not grant a new
+open-source license to the underlying data. Recipients must consult the
+applicable RentCast terms and third-party restrictions for their intended use.
+
+Data is a historical capture of advertised rental listings and is provided
+without independent verification of current availability or price accuracy.
+No API credential is included or needed to analyze this committed snapshot.
