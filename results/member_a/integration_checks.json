@@ -1,0 +1,171 @@
+{
+  "checked_at_utc": "2026-11-17T05:34:15.026422+00:00",
+  "kind": "integration and data audit; not additional rubric unit cases",
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "original_columns_and_rows_preserved",
+      "passed": true,
+      "details": {
+        "rows": 2690,
+        "source_columns": 20
+      }
+    },
+    {
+      "check": "expected_analysis_denominators",
+      "passed": true,
+      "details": {
+        "actual": [
+          2690,
+          2690,
+          2690,
+          2605
+        ],
+        "expected": [
+          2690,
+          2690,
+          2690,
+          2605
+        ]
+      }
+    },
+    {
+      "check": "missing_area_keeps_monthly_rent",
+      "passed": true,
+      "details": {
+        "missing_area_rows": 85,
+        "retained_for_rent": 85,
+        "missing_unit_price": 85
+      }
+    },
+    {
+      "check": "overall_median_independently_recomputed",
+      "passed": true,
+      "details": {
+        "stdlib_median": 3295.0
+      }
+    },
+    {
+      "check": "bedroom_0.0_median_and_count",
+      "passed": true,
+      "details": {
+        "n": 144,
+        "median": 2250.5
+      }
+    },
+    {
+      "check": "bedroom_1.0_median_and_count",
+      "passed": true,
+      "details": {
+        "n": 950,
+        "median": 2753.0
+      }
+    },
+    {
+      "check": "bedroom_2.0_median_and_count",
+      "passed": true,
+      "details": {
+        "n": 1105,
+        "median": 3581.0
+      }
+    },
+    {
+      "check": "bedroom_3.0_median_and_count",
+      "passed": true,
+      "details": {
+        "n": 353,
+        "median": 4995.0
+      }
+    },
+    {
+      "check": "bedroom_4.0_median_and_count",
+      "passed": true,
+      "details": {
+        "n": 112,
+        "median": 7250.0
+      }
+    },
+    {
+      "check": "bedroom_5.0_median_and_count",
+      "passed": true,
+      "details": {
+        "n": 23,
+        "median": 9850.0
+      }
+    },
+    {
+      "check": "bedroom_6.0_median_and_count",
+      "passed": true,
+      "details": {
+        "n": 2,
+        "median": 9400.0
+      }
+    },
+    {
+      "check": "bedroom_7.0_median_and_count",
+      "passed": true,
+      "details": {
+        "n": 1,
+        "median": 24000.0
+      }
+    },
+    {
+      "check": "distance_matches_frozen_reference",
+      "passed": true,
+      "details": {
+        "max_absolute_difference_miles": 8.881784197001252e-16
+      }
+    },
+    {
+      "check": "json_ids_and_nulls_match_database",
+      "passed": true,
+      "details": {
+        "json_rows": 2690
+      }
+    },
+    {
+      "check": "review_counts_match_independent_audit",
+      "passed": true,
+      "details": {
+        "actual": [
+          2,
+          12,
+          346
+        ],
+        "expected": [
+          2,
+          12,
+          346
+        ]
+      }
+    },
+    {
+      "check": "artifact_rent_by_bedrooms.png",
+      "passed": true,
+      "details": {
+        "bytes": 98942
+      }
+    },
+    {
+      "check": "artifact_rent_by_bedrooms.pdf",
+      "passed": true,
+      "details": {
+        "bytes": 30772
+      }
+    },
+    {
+      "check": "artifact_rent_by_distance.png",
+      "passed": true,
+      "details": {
+        "bytes": 91120
+      }
+    },
+    {
+      "check": "artifact_rent_by_distance.pdf",
+      "passed": true,
+      "details": {
+        "bytes": 31473
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "distance_band": "0-1 mi",
+    "n_records": 10,
+    "n_valid": 10,
+    "n_missing": 0,
+    "median": 3317.5,
+    "mean": 3194.7,
+    "q1": 3253.75,
+    "q3": 3346.25,
+    "min": 2500.0,
+    "max": 3560.0
+  },
+  {
+    "distance_band": "1-2 mi",
+    "n_records": 146,
+    "n_valid": 146,
+    "n_missing": 0,
+    "median": 2810.5,
+    "mean": 2848.328767123288,
+    "q1": 2438.5,
+    "q3": 3138.75,
+    "min": 1600.0,
+    "max": 4676.0
+  },
+  {
+    "distance_band": "2-3 mi",
+    "n_records": 28,
+    "n_valid": 28,
+    "n_missing": 0,
+    "median": 3177.5,
+    "mean": 3790.714285714286,
+    "q1": 2885.0,
+    "q3": 3343.75,
+    "min": 1345.0,
+    "max": 23000.0
+  },
+  {
+    "distance_band": "3-5 mi",
+    "n_records": 72,
+    "n_valid": 72,
+    "n_missing": 0,
+    "median": 2817.5,
+    "mean": 3211.152777777778,
+    "q1": 2395.0,
+    "q3": 3611.25,
+    "min": 1275.0,
+    "max": 8000.0
+  },
+  {
+    "distance_band": "5-10 mi",
+    "n_records": 694,
+    "n_valid": 694,
+    "n_missing": 0,
+    "median": 2700.0,
+    "mean": 2818.690201729107,
+    "q1": 2369.0,
+    "q3": 3049.0,
+    "min": 810.0,
+    "max": 16000.0
+  }
+]

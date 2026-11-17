@@ -1,0 +1,2 @@
+# Optional: only needed to regenerate docs/Member_A_M2_Handoff.pdf.
+reportlab>=4.4,<5

@@ -1,0 +1,62 @@
+[
+  {
+    "bedroom_plot_group": "Studio",
+    "n_records": 144,
+    "n_valid": 144,
+    "n_missing": 0,
+    "median": 2250.5,
+    "mean": 2408.645833333333,
+    "q1": 1948.75,
+    "q3": 2603.5,
+    "min": 1595.0,
+    "max": 5500.0
+  },
+  {
+    "bedroom_plot_group": "1 BR",
+    "n_records": 950,
+    "n_valid": 950,
+    "n_missing": 0,
+    "median": 2753.0,
+    "mean": 2885.596842105263,
+    "q1": 2395.0,
+    "q3": 3122.0,
+    "min": 810.0,
+    "max": 23000.0
+  },
+  {
+    "bedroom_plot_group": "2 BR",
+    "n_records": 1105,
+    "n_valid": 1105,
+    "n_missing": 0,
+    "median": 3581.0,
+    "mean": 3965.623529411765,
+    "q1": 3016.0,
+    "q3": 4003.0,
+    "min": 1775.0,
+    "max": 20000.0
+  },
+  {
+    "bedroom_plot_group": "3 BR",
+    "n_records": 353,
+    "n_valid": 353,
+    "n_missing": 0,
+    "median": 4995.0,
+    "mean": 6266.373937677054,
+    "q1": 4099.0,
+    "q3": 6562.0,
+    "min": 2750.0,
+    "max": 25000.0
+  },
+  {
+    "bedroom_plot_group": "4+ BR",
+    "n_records": 138,
+    "n_valid": 138,
+    "n_missing": 0,
+    "median": 7957.5,
+    "mean": 10011.54347826087,
+    "q1": 5425.0,
+    "q3": 12875.0,
+    "min": 3395.0,
+    "max": 25000.0
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "bedroom_count": 0.0,
+    "n_records": 144,
+    "n_valid": 144,
+    "n_missing": 0,
+    "median": 2250.5,
+    "mean": 2408.645833333333,
+    "q1": 1948.75,
+    "q3": 2603.5,
+    "min": 1595.0,
+    "max": 5500.0
+  },
+  {
+    "bedroom_count": 1.0,
+    "n_records": 950,
+    "n_valid": 950,
+    "n_missing": 0,
+    "median": 2753.0,
+    "mean": 2885.596842105263,
+    "q1": 2395.0,
+    "q3": 3122.0,
+    "min": 810.0,
+    "max": 23000.0
+  },
+  {
+    "bedroom_count": 2.0,
+    "n_records": 1105,
+    "n_valid": 1105,
+    "n_missing": 0,
+    "median": 3581.0,
+    "mean": 3965.623529411765,
+    "q1": 3016.0,
+    "q3": 4003.0,
+    "min": 1775.0,
+    "max": 20000.0
+  },
+  {
+    "bedroom_count": 3.0,
+    "n_records": 353,
+    "n_valid": 353,
+    "n_missing": 0,
+    "median": 4995.0,
+    "mean": 6266.373937677054,
+    "q1": 4099.0,
+    "q3": 6562.0,
+    "min": 2750.0,
+    "max": 25000.0
+  },
+  {
+    "bedroom_count": 4.0,
+    "n_records": 112,
+    "n_valid": 112,
+    "n_missing": 0,
+    "median": 7250.0,
+    "mean": 9540.357142857143,
+    "q1": 4993.75,
+    "q3": 12125.0,
+    "min": 3395.0,
+    "max": 25000.0
+  },
+  {
+    "bedroom_count": 5.0,
+    "n_records": 23,
+    "n_valid": 23,
+    "n_missing": 0,
+    "median": 9850.0,
+    "mean": 11751.0,
+    "q1": 7247.5,
+    "q3": 15500.0,
+    "min": 4288.0,
+    "max": 24500.0
+  },
+  {
+    "bedroom_count": 6.0,
+    "n_records": 2,
+    "n_valid": 2,
+    "n_missing": 0,
+    "median": 9400.0,
+    "mean": 9400.0,
+    "q1": 8700.0,
+    "q3": 10100.0,
+    "min": 8000.0,
+    "max": 10800.0
+  },
+  {
+    "bedroom_count": 7.0,
+    "n_records": 1,
+    "n_valid": 1,
+    "n_missing": 0,
+    "median": 24000.0,
+    "mean": 24000.0,
+    "q1": 24000.0,
+    "q3": 24000.0,
+    "min": 24000.0,
+    "max": 24000.0
+  }
+]

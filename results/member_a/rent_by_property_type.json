@@ -1,0 +1,62 @@
+[
+  {
+    "propertyType": "Apartment",
+    "n_records": 1906,
+    "n_valid": 1906,
+    "n_missing": 0,
+    "median": 3095.0,
+    "mean": 3248.232948583421,
+    "q1": 2600.0,
+    "q3": 3660.0,
+    "min": 1350.0,
+    "max": 12500.0
+  },
+  {
+    "propertyType": "Condo",
+    "n_records": 336,
+    "n_valid": 336,
+    "n_missing": 0,
+    "median": 3550.0,
+    "mean": 4739.761904761905,
+    "q1": 2750.0,
+    "q3": 5500.0,
+    "min": 1695.0,
+    "max": 25000.0
+  },
+  {
+    "propertyType": "Multi-Family",
+    "n_records": 6,
+    "n_valid": 6,
+    "n_missing": 0,
+    "median": 3900.0,
+    "mean": 4198.333333333333,
+    "q1": 3200.0,
+    "q3": 4000.0,
+    "min": 2890.0,
+    "max": 7500.0
+  },
+  {
+    "propertyType": "Single Family",
+    "n_records": 350,
+    "n_valid": 350,
+    "n_missing": 0,
+    "median": 6000.0,
+    "mean": 7874.288571428571,
+    "q1": 4100.0,
+    "q3": 10000.0,
+    "min": 810.0,
+    "max": 25000.0
+  },
+  {
+    "propertyType": "Townhouse",
+    "n_records": 92,
+    "n_valid": 92,
+    "n_missing": 0,
+    "median": 4600.0,
+    "mean": 5423.0,
+    "q1": 3850.0,
+    "q3": 6125.0,
+    "min": 1495.0,
+    "max": 20000.0
+  }
+]

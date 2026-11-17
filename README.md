@@ -29,7 +29,7 @@ The snapshot is committed byte-for-byte as collected and finalized. Its original
 
 ## Verify and read the data
 
-Python 3.9 or later is sufficient for the included scripts; they use the standard library.
+Python 3.9 or later is sufficient for the collection and snapshot-verification scripts; they use the standard library. The analysis below has additional dependencies.
 
 From the repository root, verify the checksums, database integrity, record count, and geographic bounds:
 
@@ -50,6 +50,31 @@ with sqlite3.connect(path.as_uri() + "?mode=ro", uri=True) as connection:
         "FROM listings"
     ).fetchall()
 ```
+
+## Member A: offline preparation and initial analysis
+
+Tested with Python 3.12. From the repository root:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements-analysis.txt
+python scripts/run_member_a.py
+PYTHONPATH=src python -m unittest tests.test_member_a -v
+python scripts/verify_member_a.py
+```
+
+No API key or new collection is needed. The analysis verifies the frozen snapshot, adds analysis columns and review flags without deleting rows, and writes:
+
+- `data/processed/member_a/analysis.sqlite`: regenerated `analysis_listings` table, one row per original listing ID.
+- `data/processed/member_a/analysis_listings.json`: the same derived records, with missing values as JSON null.
+- [`results/member_a/`](results/member_a/): descriptive tables, figures, summary and execution provenance.
+- [`docs/member_a_handoff.md`](docs/member_a_handoff.md): data model, rules, findings, report-ready wording, tests and team handoff.
+- [`docs/Member_A_M2_Handoff.pdf`](docs/Member_A_M2_Handoff.pdf): four-page shareable contribution package. To rebuild it, install `requirements-documents.txt` and run `python scripts/build_member_a_pdf.py` after the analysis and verification commands.
+
+Derived databases are ignored by Git and can be recreated from the committed snapshot. The primary analysis retains all 2,690 listings. Only 2,605 have valid area for price-per-square-foot statistics. All unusual observations are retained with flags. Values are advertised listing prices; the room-versus-entire-unit basis has not been verified.
+
+Member B can read `analysis_listings` or import the preparation helpers in `src/ucsd_rentals/data.py`. The current pipeline does not implement the planned user filters or replace Member B's requirements/diagrams or Member C's functional testing.
 
 ## Collection and completeness
 
@@ -73,4 +98,4 @@ The collector creates a new timestamped directory, saves each page, and stops if
 
 The dataset is third-party RentCast API data, not data owned or relicensed as open source by this project. See [DATA_LICENSE.txt](DATA_LICENSE.txt) and the [RentCast API terms](https://www.rentcast.io/terms-api).
 
-Codex assisted with source research, collection scripts, pagination diagnosis, dataset validation, and this documentation. These contributions are recorded here for course transparency. Team members should review the code and results and follow the course's full AI disclosure requirements. The required personal reflection is not included here and must be written by the students themselves.
+AI assistance was used for source research, collection scripts, pagination diagnosis, dataset validation, Member A's data preparation and analysis code, test fixtures, figures, and documentation. These contributions are recorded here for course transparency. Team members should review the code and results and follow the course's full AI disclosure requirements. The required personal reflection is not included here and must be written by the students themselves.

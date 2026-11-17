@@ -1,0 +1,14 @@
+Recorded at UTC: 2026-11-17T05:34:14.966152+00:00
+Command: PYTHONPATH=src python -m unittest tests.test_member_a -v
+
+test_ut_a1_unit_rent_valid_area (tests.test_member_a.MemberAUnitTests.test_ut_a1_unit_rent_valid_area)
+UT-A1: $3,000 / 1,000 sqft gives $3.00 per sqft per month. ... ok
+test_ut_a2_unit_rent_missing_or_invalid_area (tests.test_member_a.MemberAUnitTests.test_ut_a2_unit_rent_missing_or_invalid_area)
+UT-A2: unusable area gives None, without a division error. ... ok
+test_ut_a3_grouped_medians_ignore_missing_values (tests.test_member_a.MemberAUnitTests.test_ut_a3_grouped_medians_ignore_missing_values)
+UT-A3: grouped medians and valid/missing counts match known values. ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.003s
+
+OK

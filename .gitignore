@@ -7,6 +7,7 @@ __pycache__/
 .ipynb_checkpoints/
 .venv/
 data/working/
+data/processed/
 data/frozen/*
 !data/frozen/ucsd_rentals_2026-11-16_102139_PT/
 output/

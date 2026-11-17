@@ -1,0 +1,30 @@
+{
+  "completed_at_utc": "2026-11-17T05:34:14.690220+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "pandas": "2.2.3",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  },
+  "source_sha256": {
+    "README.txt": "62a4b83ab884920b8fc6009a909311a3da61e7f294268e64b3d40b9ed22a44dd",
+    "SHA256SUMS": "08af685962ee095d358cb2f0e4b2658a46a18c96fed991bc351dbb28e87d9e52",
+    "initial_collection_manifest.json": "c511fae0edfcb6684546987fd50977978b21929237191e3985b8aced26a1d6c1",
+    "listings.json": "a4d8ad45e247b11c3b11e7ac3348d8daf8a25db0c34b65cfa77453cd5abb8371",
+    "manifest.json": "6f66dc44de6b7732d396ab72cbd316b52c4d05231a79f36b3e02f0276d9420c5",
+    "pages/offset_00000.json": "ed5151f2c8ebb3885af08f1614a03721b63dae136abc20e86a21faf8bbae0b88",
+    "pages/offset_00500.json": "80a252752f7012736afddb0aa76c8564d30d81a3e60ab80bcd00575bb2cd37f8",
+    "pages/offset_01000.json": "97f4312f2ccb1edf174d34c7de7ab185f7b4f9991303662fd95061c473e9dd55",
+    "pages/offset_01500.json": "a1497fb2bbdf0323b83bcc79eb5f72a98b70739c9220c1df209c54bebf8872f7",
+    "pages/offset_02000.json": "0f6baeaf5880277361a784f3a02c3258b02a9bb72e2c343359e3f359e685d3ca",
+    "pages/offset_02500.json": "8165164a211d7f6beae4fb53f19a50d4f17c3153e989ff393db1ff60ff17bf35",
+    "pages/repair_offset_00990_limit_20.json": "8bc6ad0e301a23ecb4dbb79b5a04d0c31e6fec4a73db8498e6d9b1b2ee4bbdfd",
+    "quality_report.json": "3e41ebfbe8e2ea143433f32cb18e97cd51d6b05fe95897fbcc6f1b9db4444b1b",
+    "raw_listings.json": "ff389bbb756714fb884b6719a1249ec086d2cdf706401f7bcd48dbd1597753f6",
+    "rentals.sqlite": "a1fc6fcf9201d807cb8fcf3f535641f62f323632ca06ff82f88ab819bda0d360",
+    "schema.json": "0674e6f85e7b250b3e861c567de1ed39ca66d8cea42e9241fe3ac7da6a8b621c"
+  },
+  "source_unchanged": true,
+  "network_requests": 0,
+  "entrypoint": "python scripts/run_member_a.py"
+}
