@@ -70,6 +70,7 @@ No API key or new collection is needed. The analysis verifies the frozen snapsho
 - `data/processed/member_a/analysis_listings.json`: the same derived records, with missing values as JSON null.
 - [`results/member_a/`](results/member_a/): descriptive tables, figures, summary and execution provenance.
 - [`docs/member_a_handoff.md`](docs/member_a_handoff.md): data model, rules, findings, report-ready wording, tests and team handoff.
+- [`docs/member_A_data_models_assumptions.md`](docs/member_A_data_models_assumptions.md): report-ready Sections 3 (Data Models) and 4 (Assumptions & Constraints).
 - [`docs/Member_A_M2_Handoff.pdf`](docs/Member_A_M2_Handoff.pdf): four-page shareable contribution package. To rebuild it, install `requirements-documents.txt` and run `python scripts/build_member_a_pdf.py` after the analysis and verification commands.
 
 Derived databases are ignored by Git and can be recreated from the committed snapshot. The primary analysis retains all 2,690 listings. Only 2,605 have valid area for price-per-square-foot statistics. All unusual observations are retained with flags. Values are advertised listing prices; the room-versus-entire-unit basis has not been verified.
